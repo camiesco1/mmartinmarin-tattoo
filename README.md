@@ -3,9 +3,9 @@
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
- 
+
 ## UX
- 
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -16,7 +16,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
@@ -71,6 +71,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 https://www.bootstrapcdn.com/
+https://www.w3schools.com/
+https://www.quackit.com/css/css_color_codes.cfm
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
