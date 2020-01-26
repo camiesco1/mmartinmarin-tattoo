@@ -2,15 +2,17 @@ body {
   font-family: 'Source Code Pro', monospace;
 }
 
-.nav-item {
+.navbar {
   text-transform: uppercase;
+  opacity: 0.7;
 }
 
-.language {
+.language { /* Language exchage */
   font-size: 15px;
   text-align: center;
 }
 
+/* Footer */
 .fixed-bottom {
   background-color: #343a40;
   position: fixed;
@@ -18,6 +20,7 @@ body {
   right: 0;
   left: 0;
   z-index: 1030;
+  opacity: 0.7;
 }
 
 .fixed-bottom p {
@@ -28,21 +31,27 @@ body {
   margin: 10px;
 }
 
-.main-page {
-  background-image: url('../../assets/images/main-page.jpg');
+/* Background image */
+
+html {
+  height: 100vp;
+  background: url('../../assets/images/main-page.jpg') no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
-  background-color: #C4C3C3;
+  /*background-position: center;
+  background-repeat: no-repeat; */
+  background-color: #3339405e;
   height: auto;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
-  opacity: 0.7;
 }
-/* Logo image center of page */
+
+/* Logo image center of page
 .logo-img {
   opacity: 1;
   display:  flex;
@@ -52,4 +61,4 @@ body {
   margin-top: auto;
   margin-bottom: auto;
   width: 30%;
-}
+} */
