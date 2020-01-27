@@ -1,13 +1,8 @@
-.main-page {
-  font-family: 'Source Code Pro', monospace, sans-serif;
-  background-color: #343a40;
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Exo|Roboto&display=swap');
 
-  height: 100vp;
-  background: url('../../assets/images/main-page3.jpg') no-repeat bottom right fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.main-page {
+  font-family: 'Exo', sans-serif;
+  background-color: white;
 }
 
 .navbar {
@@ -20,32 +15,78 @@
   text-align: center;
 }
 
-/* Footer */
-.fixed-bottom {
+/* Footer
+footer {
   background-color: #343a40;
-  position: fixed;
+  position: sticky;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   bottom: 0;
   right: 0;
   left: 0;
   z-index: 1030;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
-.fixed-bottom p {
-  color: #9e9e9e;
+footer p {
+  color: rgba(255,255,255,.5);
   font-style: italic;
   font-size: 15px;
   text-align: center;
-  margin: 10px;
+} */ /* Tips from w3schools */
+
+/* Background image */
+
+.container-fluid .main-image {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Facts of main page */
+
+.container-fluid .tattoo-facts {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  background-color: white;
+    opacity: 0.9;
+
+  color: #343a40;
+}
+
+.tattoo-facts img {
+  height: 40px;
+  width: 40px;
+  align-items: center;
+}
+
+/* Customer's feedback */
+.quotes {
+  padding-top: 100px;
+}
+
+.page-header {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #343a40;
+}
+
+.media {
+  padding-top: 20px;
+  color: #343a40;
 }
 
 /* quote */
 
 .quote {
-  margin-top: 500px;
+  margin-top: -250px;
   background-color: grey;
-   opacity: 0.5;
+   opacity: 0.6;
    color:white;
    border-radius:5px;
    font-size:1.4em;
+
+  font-family: 'Poiret One', cursive;
+
+  position: absolute; /* Tip from Love Running tutorial*/
 }

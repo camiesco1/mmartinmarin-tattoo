@@ -73,6 +73,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 https://www.bootstrapcdn.com/
 https://www.w3schools.com/
 https://www.quackit.com/css/css_color_codes.cfm
+https://www.flaticon.com/free-icon/
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)

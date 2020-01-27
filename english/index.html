@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Code+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -16,10 +15,12 @@
 <body class="main-page container-fluid">
 
   <!-- ---------NAVBAR--------- -->
+
   <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <!-- Navbar from Bootstrap -->
       <a class="navbar-brand" href="#">
-        <img src="../assets/images/mm-logo.png" width="40" height="40" alt="mm logo">
+        <img src="../assets/images/mm-logo.png" width="40" height="40" alt="mm logo"> <!-- Tips from stackoverflow -->
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,30 +31,114 @@
           <a class="nav-item nav-link" href="#">About me</a>
           <a class="nav-item nav-link" href="#">My work</a>
           <a class="nav-item nav-link" href="#">Contact</a>
-          <a class="nav-item nav-link language" href="#">ES</a>
+          <a class="nav-item nav-link language" href="../spanish/ES-index.html">ES</a>
         </div>
       </div>
-      <a href="#"><i class="fa fa-instagram" style="color:white; text-align: center; margin-right:50px; font-size:30px;"></i></a>
+      <a href="https://www.instagram.com/mmartinmarintattoo/" target="_blank"><i class="fa fa-instagram" style="color: rgba(255,255,255,.5); text-align: center; margin-right:15px; font-size:29px;"></i></a>
+      <a href="https://www.youtube.com/watch?v=D0kRWshGBIc&t=6s" target="_blank"><i class="fa fa-youtube" style="color: rgba(255,255,255,.5); text-align: center; margin-right:50px; font-size:25px;"></i></a>
     </nav>
   </header>
+
   <!-- ---------HOME--------- -->
-  <div class="row">
-    <div class="col-md-1"></div>
-    <section class="section col-md-6">
-      <div class="quote">
-        <p>
-          <blockquote>“My body is my journal, and my tattoos are my story.” ― Johnny Depp</blockquote>
-        </p>
-      </div>
-    </section>
-  </div>
-  <!-- ---------FOOTER--------- -->
-  <footer>
+
+  <!-- Background image -->
+
+  <div class="container-fluid main-image">
     <div class="row">
-      <div class="fixed-bottom col-md-12">
-        <p class="col-md-4">Copyright © 2020 Camila Escobar</p>
+      <div class="col-md-12 container-fluid main-image">
+        <img class="container-fluid main-image" src="../assets/images/main-page3.jpg" alt="tattooing">
+        <div class="row">
+          <div class="col-md-1"></div>
+
+          <!-- Celebrity quote about tattoos -->
+          <section class="section col-md-6">
+            <div class="quote">
+              <p>
+                <blockquote>“My body is my journal, and my tattoos are my story.” ― Johnny Depp</blockquote> <!-- https://www.goodreads.com/quotes/tag/tattoos -->
+              </p>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
+  </div>
+  <section>
+
+  <!-- Artist's information -->
+
+    <div class="row justify-content-center">
+      <div class="container-fluid tattoo-facts">
+
+  <!-- Information about artist and facts -->
+
+        <div class="row">
+          <div class="col-sm fun-facts">
+            <img src="../assets/images/tattoo.png" alt=""> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          </div>
+          <div class="col-sm fun-facts">
+            <img src="../assets/images/shop.png" alt=""> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          </div>
+          <div class="col-sm fun-facts">
+            <img src="../assets/images/glove.png" alt=""> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer's feedback -->
+
+  <section class="container">
+    <div class="container-wrapper">
+		<div class="container quotes-container content-container">
+			<section class="quotes">
+				<div class="row">
+					<div class="col-12 page-header">
+						<h2 class="text-uppercase">Customer's feedback</h2>
+						<hr class="block-divider block-divider--short">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<div class="media">
+							<div class="d-none d-sm-block">
+								<img src="../assets/images/girl.jpg" alt="Girl photo" class="rounded-circle mr-3" height="100" width="100">
+						</div>
+								<div class="media-body">
+									<blockquote class="blockquote">
+										<p>Great full experience! He makes you feel safe and he is a great artist. Went with an idea, explained everything and the final result was amazing!
+										</p>
+										<p>- Camila Escobar</p>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-12 col-md-6">
+							<div class="media">
+								<div class="d-none d-sm-block">
+									<img src="../assets/images/guy.jpg" alt="Guy photo" class="rounded-circle mr-3" height="100" width="100">
+                        </div>
+									<div class="media-body">
+										<blockquote class="blockquote">
+											<p>First time doing a tattoo! He has a great hand and makes sure to listen to your need!</p>
+											<p>- Clement Liscoët</p>
+										</blockquote>
+									</div>
+								</div>
+							</div>
+						</div>
+  </section>
+
+  <!-- ---------FOOTER--------- -->
+
+  <footer>
+    <!-- <div class="row">
+      <div class="col-md-12">
+        <p>Copyright © 2020 Camila Escobar</p>
+      </div>
+    </div> -->
   </footer>
 </body>
 
