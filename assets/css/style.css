@@ -76,7 +76,7 @@ footer p {
   color: #343a40;
 }
 
-/* quote */
+/* celebrity quote */
 
 .quote {
   margin-top: -250px;
@@ -85,8 +85,22 @@ footer p {
    color:white;
    border-radius:5px;
    font-size:1.4em;
+  padding-left: 20px;
+  padding-right: 20px;
 
   font-family: 'Poiret One', cursive;
 
   position: absolute; /* Tip from Love Running tutorial*/
+}
+
+@media only screen and (max-width: 900px) {
+  .quote {
+    margin-top: -150px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .quote {
+    display: none;
+  }
 }
