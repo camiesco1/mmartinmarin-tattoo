@@ -10,30 +10,14 @@
   opacity: 0.7;
 }
 
-.language { /* Language exchage */
-  font-size: 15px;
-  text-align: center;
-}
+/* Footer */
 
-/* Footer
 footer {
-  background-color: #343a40;
-  position: sticky;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  opacity: 0.5;
-}
-
-footer p {
-  color: rgba(255,255,255,.5);
+  color: #343a40;
   font-style: italic;
-  font-size: 15px;
   text-align: center;
-} */ /* Tips from w3schools */
+  padding-top: 50px;
+}
 
 /* Background image */
 
@@ -57,10 +41,13 @@ footer p {
 .tattoo-facts img {
   height: 40px;
   width: 40px;
-  align-items: center;
 }
 
-/* Customer's feedback */
+.tattoo-facts p{
+  padding-top: 15px;
+}
+
+/* Testimonials */
 .quotes {
   padding-top: 100px;
 }
@@ -79,7 +66,7 @@ footer p {
 /* celebrity quote */
 
 .quote {
-  margin-top: -250px;
+  margin-top: -550px;
   background-color: grey;
    opacity: 0.6;
    color:white;
@@ -93,13 +80,13 @@ footer p {
   position: absolute; /* Tip from Love Running tutorial*/
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1080px) {
   .quote {
-    margin-top: -150px;
+    margin-top: -400px;
   }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 800px) {
   .quote {
     display: none;
   }
