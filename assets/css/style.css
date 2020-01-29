@@ -10,6 +10,10 @@
   background-color: #ffffff;
 }
 
+.mywork-page {
+  background-color: #343a40;
+}
+
 /* Navbar */
 
 .navbar {
@@ -24,6 +28,10 @@ footer {
   font-style: italic;
   text-align: center;
   padding-top: 50px;
+}
+
+.mywork-page footer {
+  color: rgba(255,255,255,.5);
 }
 
 /* Background image */
@@ -112,6 +120,14 @@ footer {
   text-transform: uppercase;
 }
 
+.about-content h1, h4, h6, p {
+  text-align: center;
+}
+
+.about-content h4 {
+  padding-bottom: 0px;
+}
+
 .about-image {
   padding-right: 0;
   padding-left: 0;
@@ -184,3 +200,4 @@ footer {
 
 .carousel-item {
   margin-top: 70px;
+}
