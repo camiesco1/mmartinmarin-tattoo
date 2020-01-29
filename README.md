@@ -10,24 +10,56 @@ Essentially, this part is your sales pitch.
 
 ## UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+1. The main idea of the project to show the user how the artist works, to give a bit of an insight and to maybe know a bit more about him and his story.
+
+2. On the main page you can see a regular picture, but the idea behind it is for people to see his care when working.
+Some people may just see a picture of someone doing a tattoo. Others, like me, see an artist that takes care of his customers by giving them a safe environment. How? You may ask, well, he is wearing face mask and gloves. As a customer, this gives me a good and safe feeling.
+
+2. Then we see how long he's being doing this for, also we are again reassured about his standard by seeing a phrase and a logo that attracts people (Highest quality products and gloves logo). Also people's testimonials.
+
+3. As you go along the website, you learn about his story and the way the artist thinks. This will be engaging for the customer and they may feel like they know more of the artist even if they never met. They will see his work in great detail and there will be information about the place with a map view.
+
+***---Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.---***
 
 ## Features
+
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- Navbar - allows users to go throughout the website.
+
+- Home link - Allows you to go to the home page where you find an overview of the artist.
+
+- The logo - Original just a logo but also leads you to the home page.
+
+- About me - Allows the user to know about the artist by reading about his journey and his way of thinking. Also showing a picture of him working.
+
+- My work - Gives an insight of the different tattoos he has done.
+  -Slide show work- Instead of having multiple pictures, the customer can see one by one the pictures with a quote by the artist and the date the tattoo was made on.
+
+- Contact - The customer will be able to send a message/enquery about future works or send feedbacks. Also they'll be able to see the address and location of the place.
+
+- Flags - (English and Spanish) The artist in based in Spain, this allows people to view the website in both languages. Makes it national and international.
+
+- Social media logos - This allows the user to go to the different social medias the artist uses, his main page that is Instagram and then youtube where you can find videos about his processes when doing a tattoo.
+
+*** - For the future I would like to add a facts tips/facts page.
+- Adding a sign up link, for the people that have done or will do tattoos with Martin.
+- Add a time line about his work journey.
+- Information about health and safety***
+
+***- Navbar - allows users X to achieve Y, by having them fill out Z
 - ...
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:***
 
 ### Features Left to Implement
 - Another feature idea
