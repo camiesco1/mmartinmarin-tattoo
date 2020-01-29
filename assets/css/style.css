@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One|Exo|Roboto&display=swap');
 
 /* Compressed images https://tinypng.com/*/
+
+/* main pages */
+
 .main-page {
   font-family: 'Exo', sans-serif;
   background-color: #ffffff;
@@ -41,7 +44,7 @@ footer {
   color: rgba(255,255,255,.5);
 }
 
-/* Background image */
+/* Background image - Home page*/
 
 .container-fluid .main-image {
   padding-left: 0 !important;
@@ -69,7 +72,7 @@ footer {
   padding-top: 15px;
 }
 
-/* Testimonials */
+/* Testimonials */ /* Idea from Bootstrap 4 tutorial */
 
 .testimonial {
   padding-top: 100px;
