@@ -202,3 +202,13 @@ footer {
 .carousel-item {
   margin-top: 70px;
 }
+
+.d-block {
+    display: block!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-100 {
+    width: 50%!important;
+}
