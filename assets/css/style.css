@@ -2,8 +2,15 @@
 
 .main-page {
   font-family: 'Exo', sans-serif;
-  background-color: white;
+  background-color: #ffffff;
 }
+
+.contact-page {
+  font-family: 'Exo', sans-serif;
+  background-color: #ffffff;
+}
+
+/* Navbar */
 
 .navbar {
   text-transform: uppercase;
@@ -26,9 +33,9 @@ footer {
   padding-right: 0 !important;
 }
 
-/* Facts of main page */
+/* Information on main page */
 
-.container-fluid .tattoo-facts {
+.container-fluid .studio-info {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 30px;
@@ -38,21 +45,22 @@ footer {
   color: #343a40;
 }
 
-.tattoo-facts img {
+.studio-info img {
   height: 40px;
   width: 40px;
 }
 
-.tattoo-facts p{
+.studio-info p{
   padding-top: 15px;
 }
 
 /* Testimonials */
-.quotes {
+
+.testimonial {
   padding-top: 100px;
 }
 
-.page-header {
+.testimonial-header {
   text-align: center;
   padding-bottom: 10px;
   color: #343a40;
@@ -88,6 +96,49 @@ footer {
 
 @media only screen and (max-width: 800px) {
   .quote {
+    display: none;
+  }
+}
+
+/* About page */
+
+.about-content {
+  margin-top: 80px;
+  text-align: justify;
+}
+
+.about-content h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about-image {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Contact Page */
+
+.contact-content {
+  margin-top: 80px;
+}
+
+.contact-content ul {
+  list-style-type: none;
+}
+
+.contact-content form {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .google-maps iframe {
+    display: none;
+  }
+
+  .contact-content li img {
     display: none;
   }
 }
