@@ -1,5 +1,9 @@
 # MMartinMarin tattoo
 
+This project is a portfolio/information website for my cousin who is a tattoo artist.
+
+My main idea was for everyone to be able to see his work and to know a bit more about him. ------
+
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
