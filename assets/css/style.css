@@ -22,6 +22,12 @@
   opacity: 0.7;
 }
 
+@media only screen and (max-width: 991px){
+  .fa-instagram {
+    padding-left: 0px !important;
+  }
+}
+
 /* Footer */
 
 footer {
@@ -80,7 +86,7 @@ footer {
   color: #343a40;
 }
 
-/* celebrity quote */
+/* Celebrity quote */
 
 .quote {
   margin-top: -550px;
@@ -116,22 +122,24 @@ footer {
   text-align: justify;
 }
 
-.about-content h1 {
+.about-content h2 {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.about-content h1, h4, h6, p {
-  text-align: center;
-}
-
-.about-content h4 {
-  padding-bottom: 0px;
+.about-content p {
+  text-align: justify;
 }
 
 .about-image {
   padding-right: 0;
   padding-left: 0;
+}
+
+@media only screen and (max-width: 1100px){
+  .about-content {
+    font-size: 80%;
+  }
 }
 
 /* Contact Page */
@@ -211,4 +219,44 @@ footer {
 
 .w-100 {
     width: 50%!important;
+}
+
+@media only screen and (max-width: 800px) {
+  .w-100 {
+      width: 70%!important;
+  }
+
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+
+  html {
+    font-size: 80%;
+  }
+
+  .mm-logo {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .w-100 {
+      width: 100%!important;
+  }
+
+  .navbar-toggler-icon {
+    width: 0.5em;
+    height: 0.5em;
+  }
+
+  html {
+    font-size: 70%;
+  }
+
+  .mm-logo {
+    height: 20px;
+    width: 20px;
+  }
 }
