@@ -28,9 +28,6 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
 ### Existing Features
 - Navbar - allows users to go throughout the website.
 
@@ -54,22 +51,15 @@ In this section, you should go over the different parts of your project, and des
 - Add a time line about his work journey.
 - Information about health and safety***
 
-***- Navbar - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:***
-
 ### Features Left to Implement
-- Another feature idea
+- Calendar in the Contact page that shows availability.
+- A way to connect with the instagram Stories
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+The languages used were HTML, CSS and JS (by bootstrap.)
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+I also used Bootstrap for most of the project.
 
 
 ## Testing
@@ -99,48 +89,46 @@ The contact form is not fully functional to send messages but the idea is:
 
 8. Last but not least, you have the social media logos. By pressing them you go to the main Instagram page and youtube website.
 
-***In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.***
+Tried the link in Google Chrome, Safari and Firefox... For Chrome and Firefox it work perfectly fine, there is a bug with Safari that I will keep working on it to fix it eventually.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The project I started doing it in Gitpod and then swapped for Atom as I found it fasted.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+To deploy it I cloned my repository to Atom and luckily Atom also works hand in hand with GitHub. Once it was cloned, all I had to do was:
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. going to Git button.
+
+2. Once opened, I pressed Stage All.
+
+3. Wrote down a commit message in the commit message box and pressed Commit to local (which is the branch I created).
+
+4. I go to the GitHub window in Atom and press "Open new pull resquest", which pushes the commit to GitHub.
+
+5. A window opens in GitHub where I Create a Pull request.
+
+6. I merge the pull request with the master branch. Press confirm merge.
+
+7. Once all the information is safely safed, I delete the Local branch.
 
 
 ## Credits
 
-https://www.bootstrapcdn.com/
-https://www.w3schools.com/
-https://www.quackit.com/css/css_color_codes.cfm
-https://www.flaticon.com/free-icon/
+Most of my codes were used from https://www.bootstrapcdn.com/
+I used this website when I couldn't understand some codes https://www.w3schools.com/
+For the color selection I used inspect and https://www.quackit.com/css/css_color_codes.cfm
+For the icons https://www.flaticon.com/free-icon/ and https://fontawesome.com/
+For the logo, the artist send them to me directly.
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The celebrity quote on home pages was copied from https://www.goodreads.com/testimonial/tag/tattoos.
+- The biography was written by tattoo artist and translated by me.
+- The feedback an real feedbacks from customers.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos were also obtained from Artist directly.
+- My work photos were obtained from his instagram with his permision.
+- The map was from Google Maps.
 
 ### Acknowledgements
 
