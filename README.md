@@ -74,7 +74,32 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+1. You go to the website and it will be opened straight away in the home page. On the homepage you can scroll down with ease and the navbar stays on top. Everything is to the point.
+
+2. As you check on the navbar you have all the links to navigate the website. When you go through them, they will change colours (mainly the named ones). If you click the logo, you will always go back to the homepage. I thought it was a good addition, this way you don't anything in the navbar that doesn't have a purpose.
+
+3. As you try to make the screen smaller for the different device, you will see that the homepage changes the layout, the background picture gets smaller, the navbar collapses leaving only the logo and the menu button. The quote disappears, the texts align to the center and the pictures on testimonials also dissapear.
+
+4. When you go to the about page, you will see that the ABOUT link on top stays highlighted to show that you are there. This page is very straight forward and as you reduce/change the device, font and picture will be smaller and eventually the picture will be placed in the bottom of the text.
+
+5. Going forward you have the "my work" page, you will see a carousel with the pictures. Every couple of seconds the picture with change on its own and they all have a quote, you can click the next button, press the arrows on the keyboard or use your finger to slide it on a mobile or tablet.
+Like the other segments this is responsive, it reduces the size of the picture and it also the text disappears as the screen gets smaller.
+
+6. Next you have the contact page, you have the contact form, the address of the studio and a map. If you press the name of the studio, it will take you to their instagram page.
+As the screen gets small, the map goes to the bottom and the address to the side.
+The contact form is not fully functional to send messages but the idea is:
+  1. Contact form:
+    1. Go to contact pages
+    2. Write down your name and surname.
+    3. Your email.
+    4. The subject to see what kind of enquiry it is and being able to file in eventually.
+    5. Submit.
+
+7. The next section in the navbar is the flag, in the main page case will be the Spanish flag, meaning that the website has also a Spanish version. If you press you will go to a website that has the same information and layout as the English version. The only difference is that the flag section has the English flag, which you guessed it, means you can go to the English website.
+
+8. Last but not least, you have the social media logos. By pressing them you go to the main Instagram page and youtube website.
+
+***In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
@@ -90,7 +115,7 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.***
 
 ## Deployment
 
