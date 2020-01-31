@@ -1,35 +1,29 @@
 # MMartinMarin tattoo
 
-This project is a portfolio/information website for my cousin who is a tattoo artist.
+This project is a portfolio/information website for Martin Marin, my cousin who is a tattoo artist.
 
-My main idea was for everyone to be able to see his work and to know a bit more about him. ------
+I wanted to create something where people could have a good experience even before getting an appointment with him.
+For him, health and safety is everything, he is a very artistic but mainly a very simple person. On the website you will see that, simplicity.
 
-One or two paragraphs providing an overview of your project.
+You will see his work, his career story told by him and the way he works.
 
-Essentially, this part is your sales pitch.
+I want that the first thing people see from the website is how much care he gives to the customer and its surroundings.
 
 ## UX
 
-1. The main idea of the project to show the user how the artist works, to give a bit of an insight and to maybe know a bit more about him and his story.
+1. The main idea of the project is to show the user how the artist works, to give a bit of an insight and to maybe know a bit more about him and his story.
 
 2. On the main page you can see a regular picture, but the idea behind it is for people to see his care when working.
-Some people may just see a picture of someone doing a tattoo. Others, like me, see an artist that takes care of his customers by giving them a safe environment. How? You may ask, well, he is wearing face mask and gloves. As a customer, this gives me a good and safe feeling.
+Some people may just see a picture of someone doing a tattoo. Others, like me, see an artist that takes care of his customers by giving them a safe environment. How? You may ask, well, he is wearing face mask and gloves on the background picture. As a customer, this gives me a good and safe feeling.
 
 2. Then we see how long he's being doing this for, also we are again reassured about his standard by seeing a phrase and a logo that attracts people (Highest quality products and gloves logo). Also people's testimonials.
 
 3. As you go along the website, you learn about his story and the way the artist thinks. This will be engaging for the customer and they may feel like they know more of the artist even if they never met. They will see his work in great detail and there will be information about the place with a map view.
 
-***---Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.---***
-
 ## Features
 
 ### Existing Features
-- Navbar - allows users to go throughout the website.
+- Navbar - Allows users to go throughout the website.
 
 - Home link - Allows you to go to the home page where you find an overview of the artist.
 
@@ -109,7 +103,7 @@ To deploy it I cloned my repository to Atom and luckily Atom also works hand in 
 
 6. I merge the pull request with the master branch. Press confirm merge.
 
-7. Once all the information is safely safed, I delete the Local branch.
+7. Once all the information is safely saved, I delete the Local branch.
 
 
 ## Credits
@@ -123,11 +117,11 @@ For the logo, the artist send them to me directly.
 ### Content
 - The celebrity quote on home pages was copied from https://www.goodreads.com/testimonial/tag/tattoos.
 - The biography was written by tattoo artist and translated by me.
-- The feedback an real feedbacks from customers.
+- The testimonials are real feedbacks from customers.
 
 ### Media
 - The photos were also obtained from Artist directly.
-- My work photos were obtained from his instagram with his permision.
+- My work photos were obtained from his instagram with his permission.
 - The map was from Google Maps.
 
 ### Acknowledgements
