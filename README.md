@@ -105,6 +105,14 @@ To deploy it I cloned my repository to Atom and luckily Atom also works hand in 
 
 7. Once all the information is safely saved, I delete the Local branch.
 
+8. Then I went to Settings.
+
+9. Scrolled to GitHub pages and changed the source to Master branch.
+
+10. The site was published but it showed only the README.md.
+
+11. My mentor explained that I should move index.html to the main folder.
+
 
 ## Credits
 
